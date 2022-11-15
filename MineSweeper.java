@@ -76,7 +76,7 @@ public class MineSweeper{
         {
             int x = i+dirs[k][0];
             int y = j+dirs[k][1];
-//            System.out.println("dirs"+ x+"-"+y);
+//            System.out.print2ln("dirs"+ x+"-"+y);
             if(x<0||x>grid.length-1||y<0||y>grid[0].length-1)
             {
                 continue;
